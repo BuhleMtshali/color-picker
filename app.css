@@ -1,6 +1,9 @@
+
+
 body{
     font-family: "Inter", sans-serif;
     background-color: #dde7c7;
+    text-align: center;
 }
 
 .container{
@@ -9,4 +12,40 @@ body{
 }
 h1{
     color: #4d194d;
+    margin-bottom: 0;
+    font-size: 3em;
+    
+}
+i{
+    color: #212f45;
+}
+.intro{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #212f45;
+
+
+}
+label{
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #212f45;
+    font-weight: bold;
+}
+input{
+    width: 80%;
+    padding: 15px 10px;
+    border: 2px solid #4d194d;
+    border-radius: 12px;
+    font-size: 1.05em;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #4d194d;
+    font-style: italic;
+    font-size: 1.2em;
 }
