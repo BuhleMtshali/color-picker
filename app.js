@@ -1,12 +1,13 @@
 let inputElement = document.getElementById('color-input')
 document.getElementById('button').addEventListener('click', (e) => {
     e.preventDefault()
-    getColor(inputElement.value)
-    console.log(inputElement.value)
+    let colorValue = inputElement.value.slice(1)
+    getColor(colorValue)
+    console.log(colorValue)
 })
 
 function getColor(value){
-    let apiUrl = `https://cors-anywhere.herokuapp.com/https://csscolorsapi.com/api/colors/group/${value}`
+    let apiUrl = `https://www.thecolorapi.com/scheme?hex=${value}&mode=triad&count=6`;
     axios.get(apiUrl).then(renderColor)
 }
 function renderColor(response){
