@@ -34,7 +34,7 @@ label{
     color: #212f45;
     font-weight: bold;
 }
-input{
+/*input{
     width: 80%;
     padding: 15px 10px;
     border: 2px solid #4d194d;
@@ -48,4 +48,4 @@ input:focus{
     color: #4d194d;
     font-style: italic;
     font-size: 1.2em;
-}
+}*/
