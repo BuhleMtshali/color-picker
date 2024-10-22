@@ -1,0 +1,12 @@
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #dde7c7;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+h1{
+    color: #4d194d;
+}
