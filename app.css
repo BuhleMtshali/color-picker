@@ -54,7 +54,13 @@ input{
     height: 50px;
     width: 50px;
 }
+.pallates-container{
+    display: flex;
+    margin-top: 20px;
+}
 .pallate{
     width: 50px;
     height: 100px;
+    background-color: #4d194d;
+    margin: 0 10px;
 }
