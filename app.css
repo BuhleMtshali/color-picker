@@ -34,21 +34,12 @@ label{
     color: #212f45;
     font-weight: bold;
 }
-/*input{
-    width: 80%;
-    padding: 15px 10px;
-    border: 2px solid #4d194d;
-    border-radius: 12px;
-    font-size: 1.05em;
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-input:focus{
-    outline: none;
-}
-::placeholder{
-    color: #4d194d;
-    font-style: italic;
-    font-size: 1.2em;
-}*/
 
 input{
     height: 50px;
@@ -61,8 +52,18 @@ input{
     justify-content: center;
 }
 .pallate{
-    width: 50px;
-    height: 100px;
+    width: 100px;
+    height:250px;
+    
+   
+}
+button{
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
     background-color: #4d194d;
-    margin: 0 10px;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
 }
