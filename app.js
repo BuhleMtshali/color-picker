@@ -21,10 +21,23 @@ function findColor(value){
 function renderColor(response){
     console.log(response.data)
     pallatesElement.forEach((pallate, index) => {
+        const colorHex = response.data.colors[index].hex.value;
         pallate.style.backgroundColor = response.data.colors[index].hex.value
       pallate.innerHTML = response.data.colors[index].hex.value
       pallate.style.color = 'white'
       pallate.style.fontWeight = 'bold'
+
+
+      //adding copy to clipboard function
+pallate.addEventListener('click', () => {
+    navigator.clipboard.writeText(colorHex)
+    .then(() => {
+        alert(`Copied ${colorHex} to Clipboard!`)
+    })
+    .catch(err => {
+        console.error('Failed to copy text: ', err)
+    })
+})
      
     })
 }
