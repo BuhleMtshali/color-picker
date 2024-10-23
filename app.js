@@ -12,7 +12,12 @@ function getColor(value){
 }
 function renderColor(response){
     console.log(response.data)
-    
+    let pallatesElement = document.querySelectorAll('pallate')
+    response.data.colors.forEach((color, index )=> {
+        if(pallatesElement[index]){
+            pallatesElement[index].style.backgroundColor = color.hex.value
+        }
+    });
 
 }
 

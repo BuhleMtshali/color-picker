@@ -49,3 +49,12 @@ input:focus{
     font-style: italic;
     font-size: 1.2em;
 }*/
+
+input{
+    height: 50px;
+    width: 50px;
+}
+.pallate{
+    width: 50px;
+    height: 100px;
+}
