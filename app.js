@@ -22,6 +22,9 @@ function renderColor(response){
     console.log(response.data)
     pallatesElement.forEach((pallate, index) => {
         pallate.style.backgroundColor = response.data.colors[index].hex.value
-       
+      pallate.innerHTML = response.data.colors[index].hex.value
+      pallate.style.color = 'white'
+      pallate.style.fontWeight = 'bold'
+     
     })
 }
