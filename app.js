@@ -28,6 +28,8 @@ function renderColor(response){
       pallate.style.color = 'white'
       pallate.style.fontWeight = 'bold'
 paintBrush.style.color = response.data.colors[index].hex.value
+let body = document.getElementById('body')
+body.style.backgroundColor = response.data.colors[index].hex.value
 
       //adding copy to clipboard function
 pallate.addEventListener('click', () => {
