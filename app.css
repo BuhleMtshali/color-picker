@@ -52,7 +52,7 @@ input{
     justify-content: center;
 }
 .pallate{
-    width: 220px;
+    width: 350px;
     height:350px;
     cursor: pointer;
    transition: all 0.2s ease-in-out;
@@ -62,7 +62,7 @@ input{
 }
 
 .pallate:hover{
-    width: 290px;
+    width:400px;
 }
 button{
     height: 50px;
