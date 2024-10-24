@@ -53,12 +53,13 @@ input{
 }
 .pallate{
     width: 350px;
-    height:350px;
+    height:380px;
     cursor: pointer;
    transition: all 0.2s ease-in-out;
    display: flex;
    justify-content: center;
    align-items: center;
+   
 }
 
 .pallate:hover{
