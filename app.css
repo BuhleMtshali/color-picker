@@ -52,14 +52,17 @@ input{
     justify-content: center;
 }
 .pallate{
-    width: 100px;
-    height:250px;
+    width: 150px;
+    height:350px;
     cursor: pointer;
    transition: all 0.2s ease-in-out;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .pallate:hover{
-    width: 150px;
+    width: 190px;
 }
 button{
     height: 50px;
