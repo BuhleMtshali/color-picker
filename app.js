@@ -1,7 +1,7 @@
 // defining elements
 let inputElement = document.getElementById('color-input');
 let pallatesElement = document.querySelectorAll('.pallate')
-let paintBrush = document.getElementById('paint')
+
 
 //event listener
 document.getElementById('button').addEventListener('click', (e) => {
@@ -27,7 +27,6 @@ function renderColor(response){
       pallate.innerHTML = response.data.colors[index].hex.value
       pallate.style.color = 'white'
       pallate.style.fontWeight = 'bold'
-paintBrush.style.color = response.data.colors[index].hex.value
 let body = document.getElementById('body')
 body.style.backgroundColor = response.data.colors[index].hex.value
 

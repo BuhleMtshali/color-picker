@@ -84,14 +84,11 @@ button{
     h1{
         margin-bottom: 5px;
     }
-    i{
-        display: none;
-    }
+    
     .pallate{
         width: 100%;
     }
-    .container{
-        
+    .container{  
         margin: 20px;
     }
 }
