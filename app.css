@@ -8,7 +8,7 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 500px;
+  
 }
 h1{
     color: #212f45;
@@ -49,10 +49,11 @@ input{
     display: flex;
     margin-top: 20px;
     align-items: center;
+    align-content: center;
     justify-content: center;
 }
 .pallate{
-    width: 350px;
+    width: 200px;
     height:380px;
     cursor: pointer;
    transition: all 0.2s ease-in-out;
@@ -63,15 +64,34 @@ input{
 }
 
 .pallate:hover{
-    width:400px;
+    width:230px;
 }
 button{
     height: 50px;
     margin-left: 10px;
     cursor: pointer;
     color: white;
-    background-color: #4d194d;
+    background-color: #212f45;
     font-weight: bold;
     border: none;
     font-size: 16px;
+}
+
+@media(max-width: 768px){
+    .pallates-container{
+        flex-direction: column;
+    }
+    h1{
+        margin-bottom: 5px;
+    }
+    i{
+        display: none;
+    }
+    .pallate{
+        width: 100%;
+    }
+    .container{
+        
+        margin: 20px;
+    }
 }
